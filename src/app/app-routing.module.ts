@@ -1,3 +1,4 @@
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { TextstylesComponent } from './textstyles/textstyles.component';
 import { ParagraphsComponent } from './paragraphs/paragraphs.component';
 import { ColorstylesComponent } from './colorstyles/colorstyles.component';
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path:'colorstyles',component: ColorstylesComponent},
   {path:'paragraphs',component:ParagraphsComponent},
   {path:'textstyles',component: TextstylesComponent},
-  {path:'',redirectTo:'alerts',pathMatch:"full"}
+  {path:'',redirectTo:'alerts',pathMatch:"full"},
+  {path:'**',component:PagenotfoundComponent}
 ];
 
 @NgModule({

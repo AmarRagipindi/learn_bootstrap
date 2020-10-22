@@ -10,6 +10,7 @@ import { ParagraphsComponent } from './paragraphs/paragraphs.component';
 import { AlertsComponent } from './alerts/alerts.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './cards/cards.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardsComponent } from './cards/cards.component';
     ParagraphsComponent,
     AlertsComponent,
     ButtonsComponent,
-    CardsComponent
+    CardsComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
